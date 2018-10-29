@@ -9,7 +9,7 @@
       <p class="text-secondary">{{ current_user.email }}</p>
     </div>
   </div>
-    <form action="" method="POST" enctype="multipart/form-data">
+    <form action="" method="POST" enctype="multipart/form-data"> <!--help with error identification-->
       <!--hidden_tag is adding a CSRF token to protect
       forms against attacks -->
       {{ form.hidden_tag() }}
