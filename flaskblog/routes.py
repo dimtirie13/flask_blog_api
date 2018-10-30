@@ -100,6 +100,7 @@ def account():
     return render_template('account.html', title='Account', image_file=image_file, form=form)
 
 
+<<<<<<< HEAD
 @app.route('/post/new', methods=['GET', 'POST'])
 @login_required
 def new_post():
@@ -152,3 +153,6 @@ def delete_post(post_id):
     db.session.commit()
     flash('Your post has been deleted!', 'success')
     return redirect(url_for('home'))
+=======
+
+>>>>>>> 5909a94c4f43a5942e75ca6eb04e47c954a93922
