@@ -8,5 +8,9 @@ class Config:
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
     MAIL_USERNAME = os.environ.get('EMAIL_USER')
+<<<<<<< HEAD
     MAIL_PASSWORD = os.environ.get('EMAIL_PASS')
     
+=======
+    MAIL_PASSWORD = os.environ.get("EMAIL_PASS")
+>>>>>>> blueprints
